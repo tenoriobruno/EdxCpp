@@ -8,9 +8,9 @@ int main(int argc, char const *argv[]) {
 
   Course *intermadiate_cc = new Course(3);
 
-  intermadiate_cc->students[0] = st1;
-  intermadiate_cc->students[1] = st2;
-  intermadiate_cc->students[2] = st3;
+  intermadiate_cc->students->push_back(st1);
+  intermadiate_cc->students->push_back(st2);
+  intermadiate_cc->students->push_back(st3);
 
   Teacher *t1 = new Teacher("firstNameT", "lastNameT", 50, "BH", "000");
   intermadiate_cc->teacher = t1;
@@ -25,12 +25,11 @@ int main(int argc, char const *argv[]) {
 
   cout << intermadiate_cc->getName() << endl;
   for (int i = 0; i < 3; i++){
-      cout << intermadiate_cc->students[i]->getFirstName() << endl;
-      cout << intermadiate_cc->students[i]->getLastName() << endl;
-      cout << intermadiate_cc->students[i]->getAge() << endl;
-      cout << intermadiate_cc->students[i]->getCity() << endl;
-      cout << intermadiate_cc->students[i]->getPhone() << endl;
+      cout << intermadiate_cc->students->at(i)->getFirstName() << endl;
+      cout << intermadiate_cc->students->at(i)->getLastName() << endl;
+      cout << intermadiate_cc->students->at(i)->getAge() << endl;
+      cout << intermadiate_cc->students->at(i)->getCity() << endl;
+      cout << intermadiate_cc->students->at(i)->getPhone() << endl;
   }
-
-  return 0;
+return 0;
 }

@@ -1,8 +1,6 @@
 #include "../include/Course.h"
 Course::Course(int size){
-  for (int i = 0; i < size; i++){
-    students[i] = new Student();
-  }
+  students = new vector<Student*>;
   teacher = new Teacher();
 }
 

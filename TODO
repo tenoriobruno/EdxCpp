@@ -1,4 +1,5 @@
 TODO
 
 [ X ] create a Makefile for building a application
+[ X ] replace a fix array by vector*
 [ ] Create a Person class
