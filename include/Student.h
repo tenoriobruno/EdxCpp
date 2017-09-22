@@ -18,4 +18,5 @@ public:
   Student(string firstName, string lastName, int age, string city, string phone);
   Student();
   void sitInClass();
+  void printAllinfos();
 };

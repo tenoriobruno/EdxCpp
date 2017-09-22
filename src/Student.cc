@@ -30,3 +30,11 @@ Student::Student(){
 void Student::sitInClass(){
   cout << "Student, sitting in main theater";
 }
+
+void Student::printAllinfos(){
+  cout << getFirstName() << endl;
+  cout << getLastName() << endl;
+  cout << getAge() << endl;
+  cout << getCity() << endl;
+  cout << getPhone() << endl;
+}

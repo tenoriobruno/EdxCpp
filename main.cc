@@ -25,11 +25,8 @@ int main(int argc, char const *argv[]) {
 
   cout << intermadiate_cc->getName() << endl;
   for (int i = 0; i < 3; i++){
-      cout << intermadiate_cc->students->at(i)->getFirstName() << endl;
-      cout << intermadiate_cc->students->at(i)->getLastName() << endl;
-      cout << intermadiate_cc->students->at(i)->getAge() << endl;
-      cout << intermadiate_cc->students->at(i)->getCity() << endl;
-      cout << intermadiate_cc->students->at(i)->getPhone() << endl;
+      Student *s = intermadiate_cc->students->at(i);
+      s->printAllinfos();
   }
-return 0;
+  return 0;
 }
