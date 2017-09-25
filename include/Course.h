@@ -4,14 +4,13 @@
 #include <string>
 
 using namespace std; //vector
+
 class Course{
-
-private: string name;
-
-public:
-  vector<Student*> *students;
-  Teacher *teacher;
-  string getName();
-  void setName(string name);
-  Course(int size);
-};
+  private: string name;
+  public:
+    vector<Student*> *students;
+    Teacher *teacher;
+    string getName();
+    void setName(string name);
+    Course(int size);
+  };
