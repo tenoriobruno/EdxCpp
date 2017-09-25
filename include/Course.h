@@ -1,7 +1,6 @@
 #include <vector>
 #include "../include/Student.h"
 #include "../include/Teacher.h"
-#include <string>
 
 using namespace std; //vector
 

@@ -2,4 +2,6 @@ TODO
 
 [ X ] create a Makefile for building a application
 [ X ] replace a fix array by vector*
-[ X ] Create a Person class
+[ X ] create a Person class
+[ X ] move printAllInfos method to Person class
+[  ] move sitInClass method to Person class

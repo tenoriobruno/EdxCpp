@@ -1,10 +1,8 @@
-#include <iostream>
 #include "../include/Student.h"
 
 Student::Student(string firstName, string lastName, int age, string city, string phone):
-  Person::Person(firstName, lastName, age, city, phone)
-  {
-  }
+  Person::Person(firstName, lastName, age, city, phone){
+}
 
 Student::Student(){
 }
