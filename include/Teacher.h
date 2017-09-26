@@ -5,5 +5,5 @@ public:
   Teacher(string firstName, string lastName, int age, string city, string phone);
   Teacher();
   void gradeStudent();
-  void sitInClass();
+  virtual void sitInClass();
 };

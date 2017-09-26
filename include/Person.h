@@ -19,4 +19,5 @@ class Person{
     string getCity();
     string getPhone();
     void printAllInfos();
+    virtual void sitInClass() = 0;
 };

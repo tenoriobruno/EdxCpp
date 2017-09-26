@@ -4,4 +4,4 @@ TODO
 [ X ] replace a fix array by vector*
 [ X ] create a Person class
 [ X ] move printAllInfos method to Person class
-[  ] move sitInClass method to Person class
+[ X ] move sitInClass method to Person class
