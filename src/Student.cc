@@ -10,3 +10,7 @@ Student::Student(){
 void Student::sitInClass(){
   cout << "Student, sitting in main theater" << endl;
 }
+
+string Student::whoAmI(){
+  return "Student";
+}

@@ -14,3 +14,7 @@ void Teacher::gradeStudent(){
 void Teacher::sitInClass(){
   cout << "Teacher, sitting at front of class" << endl;
 }
+
+string Teacher::whoAmI(){
+  return "Teacher";
+}

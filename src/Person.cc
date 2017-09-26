@@ -21,7 +21,9 @@ void Person::printAllInfos(){
   cout << getLastName() << endl;
   cout << getAge() << endl;
   cout << getCity() << endl;
-  cout << getPhone() << endl << endl;
+  cout << getPhone() << endl;
+  cout << whoAmI() << endl;
+  cout << personMethod() << endl << endl;
 }
 
 Person::Person(string firstName, string lastName, int age, string city, string phone){
@@ -33,4 +35,11 @@ Person::Person(string firstName, string lastName, int age, string city, string p
 }
 
 Person::Person(){
+}
+
+string Person::whoAmI(){
+}
+
+string Person::personMethod(){
+  return "Person";
 }

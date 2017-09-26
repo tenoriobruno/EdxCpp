@@ -5,4 +5,5 @@ class Student: public Person{
     Student(string firstName, string lastName, int age, string city, string phone);
     Student();
     virtual void sitInClass();
+    virtual string whoAmI();
 };

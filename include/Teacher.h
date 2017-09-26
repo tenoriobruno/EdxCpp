@@ -6,4 +6,5 @@ public:
   Teacher();
   void gradeStudent();
   virtual void sitInClass();
+  virtual string whoAmI();
 };

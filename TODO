@@ -5,3 +5,4 @@ TODO
 [ X ] create a Person class
 [ X ] move printAllInfos method to Person class
 [ X ] move sitInClass method to Person class
+[ X ] create a pure virtual method and a virtual method
