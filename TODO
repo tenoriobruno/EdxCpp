@@ -6,3 +6,8 @@ TODO
 [ X ] move printAllInfos method to Person class
 [ X ] move sitInClass method to Person class
 [ X ] create a pure virtual method and a virtual method
+[ ] replace all pointers to smart pointers
+[ ] do a feature that uses templates
+
+FIX
+[ ] remove int size parameter of Course constructor (legacy) did not use

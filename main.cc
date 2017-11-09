@@ -20,12 +20,16 @@ int main(int argc, char const *argv[]) {
   intermadiate_cc->teacher->gradeStudent();
   intermadiate_cc->teacher->printAllInfos();
 
-
-
   for (int i = 0; i < 3; i++){
       Student *s = intermadiate_cc->students->at(i);
       s->sitInClass();
       s->printAllInfos();
   }
+
+  using TeacherAliasPtr = Teacher(*);
+  TeacherAliasPtr teacher_p = new Teacher("firstNameAlias", "lastNameAlias", 50, "BH", "000");
+  teacher_p->printAllInfos();
+
   return 0;
+
 }
