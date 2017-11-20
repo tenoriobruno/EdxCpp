@@ -11,5 +11,5 @@ class Course{
     Teacher *teacher;
     string getName();
     void setName(string name);
-    Course(int size);
+    Course();
   };

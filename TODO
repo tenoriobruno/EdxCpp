@@ -7,7 +7,10 @@ TODO
 [ X ] move sitInClass method to Person class
 [ X ] create a pure virtual method and a virtual method
 [ ] replace all pointers to smart pointers
+    [ X ] insert unique_ptr
+    [ ] insert shared_ptr
 [ ] do a feature that uses templates
+[ X ] replace type classes to auto in main
 
 FIX
-[ ] remove int size parameter of Course constructor (legacy) did not use
+[ X ] remove int size parameter of Course constructor (legacy) did not use

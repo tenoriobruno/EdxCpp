@@ -1,6 +1,6 @@
 #include "../include/Course.h"
 
-Course::Course(int size){
+Course::Course(){
   students = new vector<Student*>;
   teacher = new Teacher();
 }
