@@ -1,4 +1,5 @@
 #include <vector>
+#include <memory>
 #include "../include/Student.h"
 #include "../include/Teacher.h"
 
@@ -8,7 +9,7 @@ class Course{
   private: string name;
   public:
     vector<Student*> *students;
-    Teacher *teacher;
+		unique_ptr<Teacher> teacher;
     string getName();
     void setName(string name);
     Course();

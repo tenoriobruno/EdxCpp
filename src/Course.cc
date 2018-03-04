@@ -2,7 +2,7 @@
 
 Course::Course(){
   students = new vector<Student*>;
-  teacher = new Teacher();
+	teacher = make_unique<Teacher>();
 }
 
 string Course::getName(){

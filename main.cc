@@ -17,7 +17,7 @@ int main(int argc, char const *argv[]) {
   intermadiate_cc->students->push_back(st3.get());
 
   auto t1 = make_unique<Teacher>("firstNameT", "lastNameT", 50, "BH", "000");
-  intermadiate_cc->teacher = t1.get();
+  intermadiate_cc->teacher = move(t1);
   intermadiate_cc->teacher->sitInClass();
   intermadiate_cc->teacher->gradeStudent();
   intermadiate_cc->teacher->printAllInfos();
