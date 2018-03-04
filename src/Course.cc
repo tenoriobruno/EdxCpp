@@ -1,8 +1,8 @@
 #include "../include/Course.h"
 
 Course::Course(){
-  students = new vector<Student*>;
-  teacher = new Teacher();
+	students = make_unique<vector<unique_ptr<Student>>>();
+	teacher = make_unique<Teacher>();
 }
 
 string Course::getName(){
