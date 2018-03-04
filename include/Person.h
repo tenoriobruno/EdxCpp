@@ -23,6 +23,9 @@ class Person{
     int getAge();
     string getCity();
     string getPhone();
+    //qdo um ponteiro da classe pai apontar (new) para uma instância de uma classe filha
+    //ao executar um método não virtual será executado o método da classe pai e não o da classe filha
+    //(como seria o esperado)
     void printAllInfos();
     //sub-classes are forced to implement the pure virtual method ( = 0 )
     //This is like Java abstract method
